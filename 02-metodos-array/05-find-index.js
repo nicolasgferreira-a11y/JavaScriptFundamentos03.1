@@ -6,4 +6,4 @@ console.log(indice)
 
 const indice = nomes.findIndex((n) => n === "Matheus")
 
-console.log(indice)
+console.log(indice1)
