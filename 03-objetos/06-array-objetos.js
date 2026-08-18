@@ -1,0 +1,7 @@
+const alunos = [
+    {Nome: "Ana", nota:8}
+    {Nome: "Carlos", nota:5}
+    {Nome: "Yuri", nota:9}
+]
+
+alunos.forEach((aluno) => { console.log(aluno Nome)})
