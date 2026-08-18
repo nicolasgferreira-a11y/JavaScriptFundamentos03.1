@@ -1,11 +1,8 @@
-const produto = {
-    nome: "Mouse",
-    preco: 50
+const alunos ={
+    nome: "Pablo",
+    apresentar(){
+        console.log("Olá!")
+    }
 }
 
-console.log(produto)
-
-produto.preco = 45
-produto.estoque = 10
-
-console.log(produto)
+alunos.aresentar()
