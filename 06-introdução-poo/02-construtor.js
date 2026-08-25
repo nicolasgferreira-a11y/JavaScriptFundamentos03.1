@@ -5,4 +5,5 @@ class pessoa{
     }
 }
 
-const pessoa = new pessoa("Giovani", 16)
+const pessoa = new pessoa("Giovani", 16);
+const pessoa1 = new pessoa("Gustavo", 17);
