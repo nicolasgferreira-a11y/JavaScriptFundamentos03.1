@@ -10,3 +10,4 @@ for(let i = 0; i < aluno.lenght; i++){
 }
 
 const json = JSON.stringify(alunos);
+console.log(json)   
