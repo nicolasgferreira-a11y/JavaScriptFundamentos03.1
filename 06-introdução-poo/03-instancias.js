@@ -1,8 +1,2 @@
-const aluno = new Aluno("Carlos", "Desenvolvimento de Sistemas");
-console.log(aluno);
-        this.disciplina = disciplina;
-    }
-}
-
-const professor = new Professor("Marcos", 5000, "Programação");
-console.log(professor);
+const pessoa  = new Pessoa ("Giovanni", 16);
+const pessoa1  = new Pessoa ("Giovanni", 17);
