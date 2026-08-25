@@ -15,7 +15,13 @@ class JogadorRugby{
 
     mostrarDados(){
         console.log(`Nome: ${this.nome}`);
-        console.log(`Nome: ${this.nome}`);
-        console.log(`Nome: ${this.nome}`);
+        console.log(`Número: ${this.numero}`);
+        console.log(`Posição: ${this.posicao}`);
     }
 }
+
+const jogador1 = new JogadorRugby("Pablo",10,"Abertura");
+
+jogador1.mostrarDados();
+jogador1.correr();
+jogador1.passarBola()
