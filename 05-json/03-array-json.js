@@ -3,6 +3,10 @@ const alunos = [
   {nome: "Alice", nota: 7},
 ];
 
-alunos.forEach((a)=> console.log(`O aluno(a) ${a.nome} a nota: ${a.nota}`))
+alunos.forEach((a)=> console.log(`A aluna ${a.nome} a nota: ${a.nota}`));
+
+for(let i = 0; i < aluno.lenght; i++){
+  console.log(`A aluna ${alunos[i].nome} a nota: ${alunos[i].nota}`)
+}
 
 const json = JSON.stringify(alunos);
